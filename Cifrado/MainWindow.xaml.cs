@@ -40,11 +40,11 @@ namespace Cifrado
         {
             InitializeComponent();
             Contraseña = txtcontrasena.Text;
-
+            log4net.Appender.FileAppender fileAppender = new log4net.Appender.FileAppender();
+            
            ILog log =  LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
             log.Info("jesus");
 
-            ArtisanCode.Log4NetMessageEncryptor.Log4NetMessageEncryptorConfiguration
 
         }
 
