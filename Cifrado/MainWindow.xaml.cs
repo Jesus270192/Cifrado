@@ -198,5 +198,10 @@ namespace Cifrado
         {
             Limpiar();
         }
+
+        private void onlyisAfunction()
+        {
+
+        }
     }
 }
